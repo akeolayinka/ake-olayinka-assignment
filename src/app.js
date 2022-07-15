@@ -1,4 +1,4 @@
-yconst assignment = require('./assignment.js');
+const assignment = require('./assignment.js');
 
 const { sumOfNumbers, countEvenNumbers, celsiusToFahrenheit } = assignment;
 
