@@ -18,7 +18,7 @@ function sumOfNumbers(arrayOfNumbers) {
   for (let i = 0; i < arrayOfNumbers.length; i++) {
      number += arrayOfNumbers[i];
   }
-    return number;
+    console.log (sumOfNumbers);
 }
 // assignment.sumOfNumbers = sumOfNumbers;
 
@@ -35,10 +35,10 @@ function countEvenNumbers(arrayOfNumbers) {
   let number = 0;
   for (let i = 0; i < arrayOfNumbers.length; i++) {
     if (arrayOfNumbers[i]%2 === 0) {
-      number +=1;
+      number ++;
     }
   }
-    return arrayOfNumbers.length;
+    return number;
 }
 // assignment.countEvenNumbers = countEvenNumbers;
 
